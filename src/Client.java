@@ -3,8 +3,7 @@ public class Client extends Person {
     private String adress;
     private Account account;
 
-
-
+    //getters and setters
     public String getAdress() {
         return adress;
     }
@@ -13,15 +12,16 @@ public class Client extends Person {
         this.adress = adress;
     }
 
-    public Client(){
-
-    }
-
     public int getClientNumber() {
         return clientNumber;
     }
 
     public void setClientNumber(int clientNumber) {
         this.clientNumber = clientNumber;
+    }
+
+    //constructor
+    public Client(){
+
     }
 }
